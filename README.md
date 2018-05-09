@@ -1,7 +1,7 @@
 ![Conversejs](doc/assets/project.png)
 
-[![Build Status](https://travis-ci.org/hausgold/conversejs.svg?branch=master)](https://travis-ci.org/hausgold/alarmable)
-[![Gem Version](https://badge.fury.io/rb/conversejs.svg)](https://badge.fury.io/rb/alarmable)
+[![Build Status](https://travis-ci.org/hausgold/conversejs.svg?branch=master)](https://travis-ci.org/hausgold/conversejs)
+[![Gem Version](https://badge.fury.io/rb/conversejs.svg)](https://badge.fury.io/rb/conversejs)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2565ad54f9ef9d68a7a2/maintainability)](https://codeclimate.com/github/hausgold/conversejs/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2565ad54f9ef9d68a7a2/test_coverage)](https://codeclimate.com/github/hausgold/conversejs/test_coverage)
 [![API docs](https://img.shields.io/badge/docs-API-blue.svg)](https://www.rubydoc.info/gems/conversejs)
