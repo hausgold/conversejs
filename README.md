@@ -1,4 +1,19 @@
-# Conversejs
+![Conversejs](doc/assets/project.png)
+
+[![Build Status](https://travis-ci.org/hausgold/conversejs.svg?branch=master)](https://travis-ci.org/hausgold/alarmable)
+[![Gem Version](https://badge.fury.io/rb/conversejs.svg)](https://badge.fury.io/rb/alarmable)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2565ad54f9ef9d68a7a2/maintainability)](https://codeclimate.com/github/hausgold/conversejs/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2565ad54f9ef9d68a7a2/test_coverage)](https://codeclimate.com/github/hausgold/conversejs/test_coverage)
+[![API docs](https://img.shields.io/badge/docs-API-blue.svg)](https://www.rubydoc.info/gems/conversejs)
+
+This gem provides the [converse.js](https://conversejs.org/) JavaScript library
+for your Rails 4+ application.
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
@@ -10,26 +25,51 @@ gem 'conversejs'
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install conversejs
+```bash
+$ gem install conversejs
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+The converse.js files will be added to the asset pipeline and available for you
+to use. If they're not already in `app/assets/javascripts/application.js` by
+default, add this line:
+
+```js
+//= require converse
+```
+
+The converse.js library comes also with a stylesheet which must be included to
+your `app/assets/stylesheets/application.scss`. Just add this line:
+
+```css
+@import "converse";
+```
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run
+`rake spec` to run the tests. You can also run `bin/console` for an interactive
+prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, run `bundle exec rake install`. To
+release a new version, update the version number in `version.rb`, and then run
+`bundle exec rake release`, which will create a git tag for the version, push
+git commits and tags, and push the `.gem` file to
+[rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/conversejs.
+Bug reports and pull requests are welcome on GitHub at
+https://github.com/hausgold/conversejs.
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [MIT
+License](https://opensource.org/licenses/MIT).
