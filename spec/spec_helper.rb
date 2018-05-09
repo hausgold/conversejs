@@ -7,8 +7,6 @@ require 'simplecov'
 SimpleCov.command_name 'specs'
 
 require 'rails'
-require 'rails/test_help'
-
 require File.expand_path('../dummy/config/environment.rb',  __FILE__)
 
 require 'rspec/rails'
