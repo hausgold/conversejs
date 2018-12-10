@@ -1,4 +1,4 @@
-![Conversejs](doc/assets/project.png)
+![Conversejs](doc/assets/project.svg)
 
 [![Build Status](https://travis-ci.org/hausgold/conversejs.svg?branch=master)](https://travis-ci.org/hausgold/conversejs)
 [![Gem Version](https://badge.fury.io/rb/conversejs.svg)](https://badge.fury.io/rb/conversejs)
