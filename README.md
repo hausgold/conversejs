@@ -1,6 +1,6 @@
 ![Conversejs](doc/assets/project.svg)
 
-[![Build Status](https://travis-ci.org/hausgold/conversejs.svg?branch=master)](https://travis-ci.org/hausgold/conversejs)
+[![Build Status](https://travis-ci.com/hausgold/conversejs.svg?branch=master)](https://travis-ci.com/hausgold/conversejs)
 [![Gem Version](https://badge.fury.io/rb/conversejs.svg)](https://badge.fury.io/rb/conversejs)
 [![Maintainability](https://api.codeclimate.com/v1/badges/654422ab07b3337a518f/maintainability)](https://codeclimate.com/repos/5cac8bbcd39dc77824007463/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/654422ab07b3337a518f/test_coverage)](https://codeclimate.com/repos/5cac8bbcd39dc77824007463/test_coverage)
