@@ -2,14 +2,14 @@ sudo: false
 
 env:
   global:
-    - CC_TEST_REPORTER_ID=c93fdf93cad561900ccdda0f8b7e605692830187f0563cbdf84196227554660d
+    - CC_TEST_REPORTER_ID=129457facefbaf40be0ab9fc85dfb6676b4294e1031cfb18b4de490ddb4bd6bc
 
 language: ruby
 rvm:
+  - 2.6
   - 2.5
   - 2.4
   - 2.3
-  - 2.2
 
 before_install: gem install bundler
 before_script:
