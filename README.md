@@ -2,9 +2,9 @@
 
 [![Continuous Integration](https://github.com/hausgold/conversejs/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/hausgold/conversejs/actions/workflows/test.yml)
 [![Gem Version](https://badge.fury.io/rb/conversejs.svg)](https://badge.fury.io/rb/conversejs)
-[![Maintainability](https://api.codeclimate.com/v1/badges/654422ab07b3337a518f/maintainability)](https://codeclimate.com/repos/5cac8bbcd39dc77824007463/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/654422ab07b3337a518f/test_coverage)](https://codeclimate.com/repos/5cac8bbcd39dc77824007463/test_coverage)
-[![API docs](https://img.shields.io/badge/docs-API-blue.svg)](https://www.rubydoc.info/gems/conversejs)
+[![Test Coverage](https://automate-api.hausgold.de/v1/coverage_reports/conversejs/coverage.svg)](https://knowledge.hausgold.de/coverage)
+[![Test Ratio](https://automate-api.hausgold.de/v1/coverage_reports/conversejs/ratio.svg)](https://knowledge.hausgold.de/coverage)
+[![API docs](https://automate-api.hausgold.de/v1/coverage_reports/conversejs/documentation.svg)](https://www.rubydoc.info/gems/conversejs)
 
 This gem provides the [converse.js](https://conversejs.org/) JavaScript library
 for your Rails 4+ application.

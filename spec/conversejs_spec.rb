@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 RSpec.describe Conversejs::Rails, type: :request do
   it 'has a version number' do
     expect(Conversejs::Rails::VERSION).not_to be nil
   end
 
   it 'is a valid module' do
-    expect(Conversejs::Rails).to be_a(Module)
+    expect(described_class).to be_a(Module)
   end
 
   describe 'Rails assets' do
@@ -20,7 +22,7 @@ RSpec.describe Conversejs::Rails, type: :request do
 
     it 'converse.js javascript file is in the expected version' do
       get '/assets/converse.js'
-      assert_match(/Version: 3\.3\.4/, @response.body)
+      assert_match(/Version: 3\.3\.4/, response.body)
     end
   end
 end

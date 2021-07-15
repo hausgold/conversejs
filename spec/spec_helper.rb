@@ -7,7 +7,7 @@ require 'simplecov'
 SimpleCov.command_name 'specs'
 
 require 'rails'
-require File.expand_path('../dummy/config/environment.rb',  __FILE__)
+require File.expand_path('dummy/config/environment.rb', __dir__)
 
 require 'rspec/rails'
 require 'bundler/setup'
@@ -16,7 +16,7 @@ require 'conversejs'
 # Load fixtures from the engine
 if ActiveSupport::TestCase.method_defined?(:fixture_path=)
   ActiveSupport::TestCase.fixture_path = \
-    File.expand_path('../fixtures', __FILE__)
+    File.expand_path('fixtures', __dir__)
 end
 
 Rails.backtrace_cleaner.remove_silencers!

@@ -2,6 +2,7 @@
 
 module Conversejs
   module Rails
-    VERSION = '3.3.5'.freeze
+    # The version of the +conversejs+ gem
+    VERSION = '3.3.5'
   end
 end
