@@ -3,6 +3,6 @@
 module Conversejs
   module Rails
     # The version of the +conversejs+ gem
-    VERSION = '3.3.5'
+    VERSION = '3.3.6'
   end
 end
