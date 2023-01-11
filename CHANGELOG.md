@@ -1,3 +1,11 @@
+### next
+
+* Bundler >= 2.3 is from now on required as minimal version (#3)
+* Dropped support for Ruby < 2.5 (#3)
+* Dropped support for Rails < 5.2 (#3)
+* Updated all development/runtime gems to their latest
+  Ruby 2.5 compatible version (#3)
+
 ### 3.3.6
 
 * Migrated to Github Actions

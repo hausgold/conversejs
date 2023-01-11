@@ -13,6 +13,9 @@ require 'rspec/rails'
 require 'bundler/setup'
 require 'conversejs'
 
+# Load all support helpers and shared examples
+Dir[File.join(__dir__, 'support', '**', '*.rb')].sort.each { |f| require f }
+
 # Load fixtures from the engine
 if ActiveSupport::TestCase.method_defined?(:fixture_path=)
   ActiveSupport::TestCase.fixture_path = \
@@ -31,4 +34,9 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+
+  # Enable the focus inclusion filter and run all when no filter is set
+  # See: http://bit.ly/2TVkcIh
+  config.filter_run(focus: true)
+  config.run_all_when_everything_filtered = true
 end
