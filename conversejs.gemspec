@@ -5,38 +5,48 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'conversejs/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'conversejs'
-  spec.version       = Conversejs::Rails::VERSION
-  spec.authors       = ['Henning Vogt']
-  spec.email         = ['henning.vogt@hausgold.de']
+  spec.name = 'conversejs'
+  spec.version = Conversejs::Rails::VERSION
+  spec.authors = ['Hermann Mayer', 'Henning Vogt']
+  spec.email = ['hermann.mayer92@gmail.com', 'henning.vogt@hausgold.de']
 
-  spec.summary       = 'Converse.js for your Rails application'
-  spec.homepage      = 'https://github.com/hausgold/conversejs'
-  spec.license       = 'MIT'
+  spec.license = 'MIT'
+  spec.summary = 'Converse.js for your Rails application'
+  spec.homepage = 'https://github.com/hausgold/conversejs'
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = 'https://rubygems.org'
-  else
-    raise 'RubyGems 2.0 or newer is required to protect against ' \
-      'public gem pushes.'
-  end
+  base_uri = "https://github.com/hausgold/#{spec.name}"
+  spec.metadata = {
+    'homepage_uri' => base_uri,
+    'source_code_uri' => base_uri,
+    'changelog_uri' => "#{base_uri}/blob/master/CHANGELOG.md",
+    'bug_tracker_uri' => "#{base_uri}/issues",
+    'documentation_uri' => "https://www.rubydoc.info/gems/#{spec.name}"
+  }
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+
+  spec.bindir = 'exe'
+  spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'railties', '>= 4.2.0'
+  spec.required_ruby_version = '>= 2.5'
 
-  spec.add_development_dependency 'bundler', '>= 1.16', '< 3'
-  spec.add_development_dependency 'rails', '>= 4.2.0', '< 6'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'rspec-rails', '~> 3.7'
-  spec.add_development_dependency 'rubocop', '~> 0.63.1'
-  spec.add_development_dependency 'rubocop-rspec', '~> 1.31'
-  spec.add_development_dependency 'simplecov', '< 0.18'
-  spec.add_development_dependency 'yard', '~> 0.9.18'
-  spec.add_development_dependency 'yard-activesupport-concern', '~> 0.0.1'
+  spec.add_dependency 'railties', '>= 5.2'
+
+  spec.add_development_dependency 'appraisal', '~> 2.4'
+  spec.add_development_dependency 'bundler', '~> 2.3'
+  spec.add_development_dependency 'countless', '~> 1.1'
+  spec.add_development_dependency 'guard-rspec', '~> 4.7'
+  spec.add_development_dependency 'rails', '>= 5.2'
+  spec.add_development_dependency 'rake', '~> 13.0'
+  spec.add_development_dependency 'rspec', '~> 3.12'
+  spec.add_development_dependency 'rspec-rails', '~> 5.1'
+  spec.add_development_dependency 'rubocop', '~> 1.28'
+  spec.add_development_dependency 'rubocop-rails', '~> 2.14'
+  spec.add_development_dependency 'rubocop-rspec', '~> 2.10'
+  spec.add_development_dependency 'simplecov', '>= 0.22'
+  spec.add_development_dependency 'yard', '>= 0.9.28'
+  spec.add_development_dependency 'yard-activesupport-concern', '>= 0.0.1'
 end

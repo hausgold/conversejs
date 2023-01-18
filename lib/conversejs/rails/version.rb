@@ -1,8 +1,25 @@
 # frozen_string_literal: true
 
 module Conversejs
+  # The gem version details.
   module Rails
     # The version of the +conversejs+ gem
     VERSION = '3.3.6'
+
+    class << self
+      # Returns the version of gem as a string.
+      #
+      # @return [String] the gem version as string
+      def version
+        VERSION
+      end
+
+      # Returns the version of the gem as a +Gem::Version+.
+      #
+      # @return [Gem::Version] the gem version as object
+      def gem_version
+        Gem::Version.new VERSION
+      end
+    end
   end
 end
