@@ -1,5 +1,9 @@
 ### next
 
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 3.5.0
+
 * Added support for Gem release automation
 
 ### 3.4.0
