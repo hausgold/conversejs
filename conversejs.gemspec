@@ -2,11 +2,11 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'conversejs/rails/version'
+require 'conversejs/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'conversejs'
-  spec.version = Conversejs::Rails::VERSION
+  spec.version = Conversejs::VERSION
   spec.authors = ['Hermann Mayer', 'Henning Vogt']
   spec.email = ['hermann.mayer92@gmail.com', 'henning.vogt@hausgold.de']
 
@@ -34,4 +34,5 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.7'
 
   spec.add_dependency 'railties', '>= 6.1', '< 7.0'
+  spec.add_dependency 'zeitwerk', '~> 2.6'
 end
