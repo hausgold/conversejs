@@ -2,9 +2,9 @@
 
 require 'spec_helper'
 
-RSpec.describe Conversejs::Rails, type: :request do
+RSpec.describe Conversejs, type: :request do
   it 'has a version number' do
-    expect(Conversejs::Rails::VERSION).not_to be_nil
+    expect(Conversejs::VERSION).not_to be_nil
   end
 
   it 'is a valid module' do
