@@ -1,6 +1,6 @@
 ### next
 
-* TODO: Replace this bullet point with an actual description of a change.
+* Added the logger dependency (#10)
 
 ### 3.8.0 (12 January 2025)
 
