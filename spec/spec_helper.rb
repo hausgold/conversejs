@@ -6,6 +6,7 @@ ENV['RAILS_ENV'] = 'test'
 require 'simplecov'
 SimpleCov.command_name 'specs'
 
+require 'logger'
 require 'rails'
 require File.expand_path('dummy/config/environment.rb', __dir__)
 
