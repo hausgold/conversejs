@@ -43,6 +43,7 @@ RUBY_VERSION := ruby-version
 GEMFILES ?= $(subst _,-,$(patsubst $(GEMFILES_DIR)/%.gemfile,%,\
 	$(wildcard $(GEMFILES_DIR)/*.gemfile)))
 TEST_GEMFILES := $(GEMFILES:%=test-%)
+WATCH_GEMFILES := $(GEMFILES:%=watch-%)
 
 # Define a generic shell run wrapper
 # $1 - The command to run
@@ -97,6 +98,11 @@ update:
 watch: install .interactive
 	# Watch for code changes and rerun the test suite
 	@$(call run-shell,$(BUNDLE) exec $(GUARD))
+
+$(WATCH_GEMFILES): GEMFILE=$(@:watch-%=%)
+$(WATCH_GEMFILES):
+	# Watch for code changes and rerun the test suite ($(GEMFILE))
+	@$(call run-shell,$(BUNDLE) exec $(APPRAISAL) $(GEMFILE) $(GUARD))
 
 test: \
 	test-specs \
