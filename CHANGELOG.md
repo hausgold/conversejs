@@ -1,5 +1,9 @@
 ### next
 
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 3.9.0 (23 January 2025)
+
 * Added support for Rails 7.1 (#11)
 
 ### 3.8.1 (17 January 2025)

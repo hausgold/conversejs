@@ -3,7 +3,7 @@
 # The gem version details.
 module Conversejs
   # The version of the +conversejs+ gem
-  VERSION = '3.8.1'
+  VERSION = '3.9.0'
 
   class << self
     # Returns the version of gem as a string.
