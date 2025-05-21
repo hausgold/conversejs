@@ -1,7 +1,11 @@
 ### next
 
-* Corrected some RuboCop glitches (#13)
-* Upgraded the rubocop dependencies (#14)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 3.10.1 (21 May 2025)
+
+* Corrected some RuboCop glitches ([#13](https://github.com/hausgold/conversejs/pull/13))
+* Upgraded the rubocop dependencies ([#14](https://github.com/hausgold/conversejs/pull/14))
 
 ### 3.10.0 (30 January 2025)
 
