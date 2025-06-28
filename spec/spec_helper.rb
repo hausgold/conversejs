@@ -15,7 +15,7 @@ require 'bundler/setup'
 require 'conversejs'
 
 # Load all support helpers and shared examples
-Dir[File.join(__dir__, 'support', '**', '*.rb')].sort.each { |f| require f }
+Dir[File.join(__dir__, 'support', '**', '*.rb')].each { |f| require f }
 
 # Load fixtures from the engine
 if ActiveSupport::TestCase.method_defined?(:fixture_path=)
