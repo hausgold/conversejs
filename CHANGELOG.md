@@ -1,6 +1,10 @@
 ### next
 
-* Added support for Rails 8.1 (#17)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 4.1.0 (24 October 2025)
+
+* Added support for Rails 8.1 ([#17](https://github.com/hausgold/conversejs/pull/17))
 
 ### 4.0.0 (28 June 2025)
 
