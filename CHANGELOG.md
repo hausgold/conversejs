@@ -1,6 +1,10 @@
 ### next
 
-* Migrated to a shared Rubocop configuration for HAUSGOLD gems (#18)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 4.2.0 (19 December 2025)
+
+* Migrated to a shared Rubocop configuration for HAUSGOLD gems ([#18](https://github.com/hausgold/conversejs/pull/18))
 
 ### 4.1.0 (24 October 2025)
 
