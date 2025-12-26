@@ -1,7 +1,11 @@
 ### next
 
-* Added Ruby 4.0 support (#20)
-* Dropped Ruby 3.2 and Rails 7.1 support (#19)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 4.3.0 (26 December 2025)
+
+* Added Ruby 4.0 support ([#20](https://github.com/hausgold/conversejs/pull/20))
+* Dropped Ruby 3.2 and Rails 7.1 support ([#19](https://github.com/hausgold/conversejs/pull/19))
 
 ### 4.2.0 (19 December 2025)
 
