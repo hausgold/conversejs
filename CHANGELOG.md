@@ -1,7 +1,11 @@
 ### next
 
-* Upgraded to Ubuntu 24.04 on Github Actions (#22)
-* Migrated to hausgold/actions@v2 (#21)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 4.4.0 (7 January 2026)
+
+* Upgraded to Ubuntu 24.04 on Github Actions ([#22](https://github.com/hausgold/conversejs/pull/22))
+* Migrated to hausgold/actions@v2 ([#21](https://github.com/hausgold/conversejs/pull/21))
 
 ### 4.3.0 (26 December 2025)
 
