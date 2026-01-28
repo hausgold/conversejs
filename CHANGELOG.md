@@ -1,6 +1,10 @@
 ### next
 
-* Dropped Rails 7.1 support (#23)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 4.6.0 (28 January 2026)
+
+* Dropped Rails 7.1 support ([#23](https://github.com/hausgold/conversejs/pull/23))
 
 ### 4.5.0 (19 January 2026)
 
