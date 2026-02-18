@@ -1,6 +1,10 @@
 ### next
 
-* Added gemspec dependencies for all loaded gems (#25)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 4.8.0 (18 February 2026)
+
+* Added gemspec dependencies for all loaded gems ([#25](https://github.com/hausgold/conversejs/pull/25))
 
 ### 4.7.0 (18 February 2026)
 
