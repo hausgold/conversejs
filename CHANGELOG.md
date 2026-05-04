@@ -1,6 +1,10 @@
 ### next
 
-* Dropped Ruby 3.x and Rails <8.1 support (#26)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 4.9.0 (4 May 2026)
+
+* Dropped Ruby 3.x and Rails <8.1 support ([#26](https://github.com/hausgold/conversejs/pull/26))
 
 ### 4.8.0 (18 February 2026)
 
