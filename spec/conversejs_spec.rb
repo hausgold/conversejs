@@ -24,7 +24,7 @@ RSpec.describe Conversejs, type: :request do
 
     it 'converse.js javascript file is in the expected version' do
       get '/assets/converse.js'
-      expect(response.body).to match(/Version: 3\.3\.4/)
+      expect(response.body).to include('Version: 3.3.4')
     end
   end
 end
