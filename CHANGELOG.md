@@ -1,6 +1,10 @@
 ### next
 
-* Corrected some RuboCop glitches (#28)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 4.10.1 (14 July 2026)
+
+* Corrected some RuboCop glitches ([#28](https://github.com/hausgold/conversejs/pull/28))
 
 ### 4.10.0 (20 May 2026)
 
