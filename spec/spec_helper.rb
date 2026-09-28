@@ -5,6 +5,7 @@ ENV['RAILS_ENV'] = 'test'
 
 require 'simplecov'
 SimpleCov.command_name 'specs'
+SimpleCov.start
 
 require 'logger'
 require 'rails'
