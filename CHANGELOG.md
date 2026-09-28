@@ -1,6 +1,10 @@
 ### next
 
-* Upgraded the simplecov gem to 1.3 (#29)
+* TODO: Replace this bullet point with an actual description of a change.
+
+### 4.11.0 (28 September 2026)
+
+* Upgraded the simplecov gem to 1.3 ([#29](https://github.com/hausgold/conversejs/pull/29))
 
 ### 4.10.1 (14 July 2026)
 
