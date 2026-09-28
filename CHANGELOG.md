@@ -1,6 +1,6 @@
 ### next
 
-* TODO: Replace this bullet point with an actual description of a change.
+* Upgraded the simplecov gem to 1.3 (#29)
 
 ### 4.10.1 (14 July 2026)
 
